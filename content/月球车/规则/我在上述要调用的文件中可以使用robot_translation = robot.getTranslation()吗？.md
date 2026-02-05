@@ -1,0 +1,1 @@
+可以，在被调用的文件中可以使用 robot.getTranslation() 来获取机器人在世界坐标系下的位置。因为 robot 对象在 Supervisor 类中被定义并初始化，所以在其他被调用的文件中使用 Supervisor 对象也可以通过 sup.getFromDef('Rover') 获取 robot 对象，进而调用 robot.getTranslation() 方法。

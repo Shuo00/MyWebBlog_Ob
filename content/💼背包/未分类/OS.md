@@ -1,0 +1,3 @@
+FydeOS
+Chromium OS
+BSD
